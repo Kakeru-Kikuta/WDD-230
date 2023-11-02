@@ -15,23 +15,27 @@
 <body>
     <header>
         <h1>
-            <div class="myimg">
+            <div id="myimg">
                 <img src="images/me_edit.jpg" alt="">
             </div>
-            Kakeru Kikuta
+            <div id="myname">
+                Kakeru Kikuta
+            </div>
         </h1>
     </header>
     <nav>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="">Chamber</a></li>
-        <li><a href="chamber-site-plan.html">Site Plan</a></li>
-        <li><a href="">Form</a></li>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">Chamber</a></li>
+            <li><a href="chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="">Form</a></li>
+        </ul>
     </nav>
     <main>
         <h2>WDD 230: Web Frontend Development</h2>
         <section class="card">
             <h3>Learning Activities</h3>
-            <ul>
+            <ul class="submenu">
                 <li>Week 01
                     <a href="week01/holygrail.html">Layout</a>
                     <a href="week01/media_query.html">Media Query</a>
@@ -44,7 +48,7 @@
                 <li>Week 06<a href=""></a></li>
             </ul>
         </section>
-        <section class="card">
+        <section class="card1">
             <h3>Information</h3>
             <p id="weather"></p>
             <p>Page Visit: <visit id="amount"></visit></p>
