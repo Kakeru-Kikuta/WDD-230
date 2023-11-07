@@ -8,7 +8,6 @@ body {
 	font-family: "Roboto", sans-serif;
 }
 
-/* mobile **************************/
 header {
     font-family: "Roboto";
 	text-align: center;
@@ -20,7 +19,7 @@ header {
 }
 
 nav {
-	background-color: #5999E8;
+	background-color: #455e7c;
 	margin: 0 auto;
 	max-width: auto;
 }
@@ -48,6 +47,7 @@ main {
 	margin: 20px 50px auto;
 }
 h2 {
+	color: #fff;
 	background-color: #5999E8;
     border-bottom:1px solid #000000;
 }

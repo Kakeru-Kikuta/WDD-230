@@ -5,7 +5,7 @@ var d = day.getDate();
 var t = day.getTime();
 
 if (m < 10) m ="0" + m;
-if (d < 10) d = "0" + m;
+if (d < 10) d = m;
 
-year.innerHtml += y;
-modDay.innerHtml += m+"/"+d+"/"+y;
+document.getElementById("year").innerHtml = y;
+document.getElementById("modDay").innerHTML = m+"/"+d+"/"+y;

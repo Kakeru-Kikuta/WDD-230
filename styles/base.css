@@ -8,7 +8,6 @@ body {
 	font-family: "Roboto", sans-serif;
 }
 
-/* mobile **************************/
 header {
 	text-align: center;
 	align-items: center;
@@ -50,9 +49,6 @@ h2 {
     border-bottom:1px solid #000000;
 }
 
-section {
-    margin: 20px auto;
-}
 h3 {
     background-color: #36454f;
     color: #fff;
@@ -69,6 +65,25 @@ footer {
     max-width: auto;
     position: absolute;
     bottom: 0;
+}
+
+img {
+	margin: 20px;
+}
+
+.myHeader {
+	display: flex;
+	margin: 0 25%;
+}
+
+#myname {
+	padding-top: 20px;
+}
+
+.myGrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
 }
 
 @media (min-width: 640px) {
