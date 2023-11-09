@@ -9,3 +9,12 @@ if (d < 10) d = m;
 
 document.getElementById("year").innerHtml = y;
 document.getElementById("modDay").innerHTML = m+"/"+d+"/"+y;
+
+/// For Movile 
+const hamButton = document.querySelector('#menu');
+const navigation = document.querySelector('.navigation');
+
+hamButton.addEventListener('click', () => {
+	navigation.classList.toggle('open');
+	hamButton.classList.toggle('open');
+});
