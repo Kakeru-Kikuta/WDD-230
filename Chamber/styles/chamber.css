@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+header {
+	font-family: "Roboto";
+	text-align: center;
+	align-items: center;
+	background-color: #5999E8;
+	font-size: 2rem;
+	padding: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+nav {
+	background-color: #455e7c;
+	margin: 0 auto;
+	max-width: auto;
+}
+nav ul {
+	list-style-type: none;
+}
+nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+}
+
+nav a:hover {
+	border: 1px solid #fff;
+}
+
+.active {
+	color: yellow;
+}
+
+main {
+	max-width: auto;
+	margin: 20px 50px auto;
+}
+h2 {
+    color: #fff;
+	background-color: #5999E8;
+    border-bottom:1px solid #000000;
+}
+
+h3 {
+    background-color: #36454f;
+    color: #fff;
+}
+.submenu li {
+    display: block;
+}
+
+footer {
+    font-family: "Roboto";
+	text-align: center;
+	align-items: center;
+	background-color: #5999E8;
+    text-align: center;
+    width: 100%;
+    max-width: auto;
+    position: absolute;
+    bottom: 0;
+}
+
+img {
+	margin: 20px;
+}
+
+.myHeader {
+	display: flex;
+	margin: 0 25%;
+}
+
+#myname {
+	padding-top: 20px;
+}
+
+.myGrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+}
+
+#mode {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	font-size: 3rem;
+	cursor: pointer;
+	font-size: 2rem;
+}

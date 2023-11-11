@@ -21,34 +21,48 @@
     <link rel="stylesheet" href="styles/chamber-plan.css">
     <link rel="stylesheet" href="https://googleapis.com/css2?family=Lato&display=swap">
 
-    <link rel="icon" href="#">
+    <link rel="icon" href="favicon.ico">
 </head>
 <body>
+    <div id="mode">
+        🕶️
+    </div>
     <header>
-        <h1 class="chamberHeader">
+        <h1 class="myHeader">
             Kadark Chamber of Commerce
         </h1>
+        <nav>
+            <button id="menu"></button>
+            <ul class="topnav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <a id="joinB" href="#">Join the Chamber</a>
         <img src="#" alt="heroimg">
-        <section>
-            <h3>Events</h3>
-            <h4>E name</h4>
-            <p>#</p>
-            <a href="#">more info...</a>
-        </section>
-        <section>
-            <h3>Weather</h3>
-            <p id="weather"></p>
-        </section>
-        <section>
-            <h2>Member Spotlights</h2>
-            <h3>Title</h3>
-            <p>#</p>
-            <h3>Title</h3>
-            <p>#</p>
-        </section>
+        <div class="myGrid">
+            <section>
+                <h3>Events</h3>
+                <h4>E name</h4>
+                <p>#</p>
+                <a href="#">more info...</a>
+            </section>
+            <section>
+                <h3>Weather</h3>
+                <p id="weather"></p>
+            </section>
+            <section>
+                <h2>Member Spotlights</h2>
+                <h3>Title</h3>
+                <p>#</p>
+                <h3>Title</h3>
+                <p>#</p>
+            </section>
+        </div>
     </main>
     <footer>
         <p>Kadark Chamber of Commerce</p>
