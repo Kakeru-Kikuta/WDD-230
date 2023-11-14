@@ -14,8 +14,7 @@
 
     <link rel="stylesheet" href="styles/normalize.css">
     <link href="styles/base.css" rel="stylesheet">
-    <limk href="styles/larger.css" rel="stylesheet">
-    </limk>
+    <link href="styles/larger.css" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,14 +27,14 @@
         🕶️
     </div>
     <header>
-        <h1 class="myHeader">
+        <div class="myHeader">
             <div class="myimg">
                 <img src="images/me_reedited.jpg" alt="Kadark Kikuta" width="75" height="100">
             </div>
             <div id="myname">
                 Kakeru Kikuta
             </div>
-        </h1>
+        </div>
     </header>
     <nav>
         <button id="menu"></button>
@@ -75,14 +74,14 @@
             <section class="card1">
                 <h3>Information</h3>
                 <p id="weather"></p>
-                <p>Page Visit: <visit id="amount"></visit></p>
+                <p>Page Visit: <span id="amount"></span></p>
             </section>
         </div>
     </main>
     <footer>
         <p>©2023 Kakeru Kikuta Japan</p>
         <p>
-            Last Modification: <div id="modDay"></div>
+            Last Modification: <span id="modDay"></span>
         </p>
     </footer>
 <script src="scripts/getDate.js"></script>

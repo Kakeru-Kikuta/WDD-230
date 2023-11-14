@@ -8,7 +8,7 @@ if (m < 10) m ="0" + m;
 if (d < 10) d = m;
 
 document.getElementById("year").innerHtml = y;
-document.getElementById("modDay").innerHTML = m+"/"+d+"/"+y;
+document.getElementById("modDay").innerText = "Test"
 
 /// For Movile 
 const hamButton = document.querySelector('#menu');

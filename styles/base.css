@@ -20,10 +20,10 @@ header {
 nav {
 	background-color: #36454f;
 	margin: 0 auto;
-	max-width: auto;
+
 }
 nav ul {
-	list-style-type: none;
+	list-style-type: none; 
 }
 nav a {
 	display: block;
@@ -42,7 +42,7 @@ nav a:hover {
 }
 
 main {
-	max-width: auto;
+	
 	margin: 20px 50px auto;
 }
 h2 {
@@ -62,7 +62,6 @@ footer {
     color: #fff;
     text-align: center;
     width: 100%;
-    max-width: auto;
     position: absolute;
     bottom: 0;
 }
@@ -81,9 +80,9 @@ img {
 }
 
 .myGrid {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	gap: 20px;
+	grid-template-columns: 1fr;
+	/* gap: 20px; */
+    /* justify-content:space-around; */
 }
 
 #mode {
@@ -93,4 +92,12 @@ img {
 	font-size: 3rem;
 	cursor: pointer;
 	font-size: 2rem;
+}
+
+h2 {
+	margin-bottom: 20px;
+}
+
+.card1 {
+	margin-top: 20px;
 }
