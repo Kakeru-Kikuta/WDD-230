@@ -1,3 +1,4 @@
+/* Index */
 * {
 	margin: 0;
 	padding: 0;
@@ -18,10 +19,13 @@ header {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.hero-contents {
+  	background-size: cover;
+	color: #fff;
+}
+
 nav {
 	background-color: #455e7c;
-	margin: 0 auto;
-	max-width: auto;
 }
 nav ul {
 	list-style-type: none;
@@ -67,7 +71,6 @@ footer {
 	background-color: #5999E8;
     text-align: center;
     width: 100%;
-    max-width: auto;
     position: absolute;
     bottom: 0;
 }
@@ -87,7 +90,7 @@ img {
 
 .myGrid {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr;
 	gap: 20px;
 }
 
@@ -99,3 +102,19 @@ img {
 	cursor: pointer;
 	font-size: 2rem;
 }
+
+/* Discover page */
+.discover {
+	display: grid;
+	grid-template-columns: 1fr;
+	display: flex;
+}
+
+.side {
+	text-align:center;
+  margin-left:10px;
+}
+
+/* Directory page */
+
+/* Join page */
