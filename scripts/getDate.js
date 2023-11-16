@@ -1,7 +1,7 @@
 
 var day = new Date(document.lastModified);
 var y = day.getFullYear();
-var m = day.getMonth();
+var mo = day.getMonth();
 var d = day.getDate();
 var t = day.getTime();
 var h = day.getHours();
@@ -12,7 +12,7 @@ if (m < 10) m ="0" + m;
  if (d < 10) d = m;
 
 document.getElementById("year").innerText = y;
- document.getElementById("date").innerHTML = `${m}/${d}/${y} ${h}:${m}:${s}`
+ document.getElementById("date").innerHTML = `${mo}/${d}/${y} ${h}:${m}:${s}`
 
 /// For Movile 
 const hamButton = document.querySelector('#menu');
