@@ -190,12 +190,14 @@ h2 {
 .iframe-wrp {
 	position: relative;
 	width: 100%;
-	padding-top: 75%; /* = height ÷ width × 100 */
+	margin-top: 20px;
+	padding-top: 75%;
   }
   .iframe-wrp iframe {
 	position: absolute;
 	top: 0;
 	left: 0;
+	right: 0;
 	width: 100%;
 	height: 100%;
   }
