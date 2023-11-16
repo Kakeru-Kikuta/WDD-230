@@ -64,6 +64,21 @@ h3 {
     display: block;
 }
 
+#title {
+	margin-top: 20px;
+	color:#fff;
+	background-color:  #5999E8;
+}
+
+#menu-c {
+	margin-top: 20px;
+	color: #fff;
+	background-color:  #455e7c;
+}
+
+#t {
+	font-family: "Roboto";
+}
 
 @media (min-width: 640px) {
 	nav ul {
