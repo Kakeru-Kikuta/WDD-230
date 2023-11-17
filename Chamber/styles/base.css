@@ -110,6 +110,9 @@ img {
   	margin-left:10px;
 }
 
+img {
+    animation: fade 15s;
+}
 /* Small nav */
 #menu {
 	font-size: 1.5rem;
@@ -201,13 +204,3 @@ img {
 /* Directory page */
 
 /* Join page */
-
-/* Visitor count */
-#label {
-	font-weight: 700;
-}
-.visits {
-	color: navy;
-	font-weight: bolder;
-	font-size: larger;
-}
