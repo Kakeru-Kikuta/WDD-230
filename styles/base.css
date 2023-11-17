@@ -130,6 +130,18 @@ h2 {
 	text-align: center;
 	text-decoration: none;
 }
+/* button operation */
+.open li {
+	display: block;
+	width: 100%;
+}
+.open li a {
+	display: block;
+}
+
+.active::before {
+	content: "📍 ";
+}
 
 /* Helo img */
 .hero {
@@ -161,19 +173,6 @@ h2 {
 	font-weight: 700;
 	font-size: 2rem;
 	font-family:"Great Vibes", serif;
-}
-
-/* button operation */
-.open li {
-	display: block;
-	width: 100%;
-}
-.open li a {
-	display: block;
-}
-
-.active::before {
-	content: "📍 ";
 }
 
 /* Visitor count */
