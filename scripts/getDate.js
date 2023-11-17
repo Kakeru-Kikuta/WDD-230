@@ -1,4 +1,4 @@
-
+// Last mod date
 var day = new Date(document.lastModified);
 var y = day.getFullYear();
 var mo = day.getMonth();
