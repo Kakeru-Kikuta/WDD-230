@@ -1,3 +1,20 @@
+// Last mod date
+var day = new Date(document.lastModified);
+var y = day.getFullYear();
+var mo = day.getMonth();
+var d = day.getDate();
+var t = day.getTime();
+var h = day.getHours();
+var m = day.getMinutes();
+var s = day.getSeconds();
+
+if (m < 10) m ="0" + m;
+ if (d < 10) d = m;
+
+document.getElementById("year").innerText = y;
+document.getElementById("date").innerHTML = `${mo}/${d}/${y} ${h}:${m}:${s}`
+
+
 /// For Movile 
 const hamButton = document.querySelector('#menu');
 const navigation = document.querySelector('.navigation');
@@ -22,3 +39,17 @@ modeButton.addEventListener("click", () => {
 		modeButton.textContent = "🕶️";
 	}
 });
+
+// Visitor count
+const visitsDisplay = document.querySelector(".visits");
+let numVisits = Number(window.localStorage.getItem("numVisits-Is")) || 0;
+
+if (numVisits !== 0) {
+	visitsDisplay.textContent = numVisits;
+} else {
+	visitsDisplay.textContent = `Welcome! Let us know if you have any questions.`;
+}
+
+numVisits++;
+
+localStorage.setItem("numVisits-ls", numVisits);

@@ -19,11 +19,6 @@ header {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.hero-contents {
-  	background-size: cover;
-	color: #fff;
-}
-
 nav {
 	background-color: #455e7c;
 }
@@ -101,9 +96,13 @@ img {
 /* Discover page */
 .pics {
 	margin: 0 auto;
-    width: 500px;
+    width: 850px;
     display: flex;
     flex-direction: column;
+}
+
+picture:hover {
+	box-shadow: 0 0 50px #333;
 }
 .discover {
 	display: grid;
@@ -114,6 +113,16 @@ img {
 .side {
 	text-align:center;
   	margin-left:10px;
+	max-width: 200px;
+}
+
+p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#calendar {
+	margin-bottom: 10px;
 }
 
 img {
