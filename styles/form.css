@@ -102,6 +102,10 @@ main {
     min-height: 20rem;
 }
 
+form:active, form:hover {
+    color: #36454f;
+}
+
 form fieldset {
     margin: 2rem 0;
     border: 1px solid #445ba9;
@@ -143,7 +147,9 @@ form input.submitBtn {
     max-width: 20rem;
 }
 
-.submitBtn
+.submitBtn:hover {
+    color: #445ba9;
+}
 
 form label.top input:required:valid {
     border-left: green solid 6px;
