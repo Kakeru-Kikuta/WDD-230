@@ -1,110 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kakeru Kikuta - WDD 230 - Web Frontend Development</title>
-    <meta name="description" content="WDD 230 - Web Frontend Development - Kakeru Kikuta - course assignment portal">
-    <meta name="author" content="Kakeru Kikuta">
-    
-    <meta property="og:title" content="Kakeru Kikuta" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://kakeru-kikuta.github.io/WDD-230/" />
-    <meta property="og:image" content="https://kakeru-kikuta.github.io/WDD-230/images/me_reedited.jpg" />
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kakeru Kikuta - WDD 230 - Web Frontend Development</title>
+        <meta name="description" content="WDD 230 - Web Frontend Development - Kakeru Kikuta - course assignment portal">
+        <meta name="author" content="Kakeru Kikuta">
+        
+        <meta property="og:title" content="Kakeru Kikuta" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://kakeru-kikuta.github.io/WDD-230/" />
+        <meta property="og:image" content="https://kakeru-kikuta.github.io/WDD-230/images/me_reedited.jpg" />
 
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link href="styles/base.css" rel="stylesheet">
-    <link href="styles/larger.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link href="styles/base.css" rel="stylesheet">
+        <link href="styles/larger.css" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400&display=swap" rel="stylesheet">
 
-    <link rel="icon" href="favicon.ico">
-</head>
-<body>
-    <div id="mode">
-        🕶️
-    </div>
-    <header>
-        <div class="myHeader">
-            <div class="myimg">
-                <img src="images/me_reedited.webp" alt="Kadark Kikuta" width="75" height="100">
-            </div>
-            <div id="myname">
-                Kakeru Kikuta
-            </div>
+        <link rel="icon" href="favicon.ico">
+    </head>
+    <body>
+        <div id="mode">
+            🕶️
         </div>
-    </header>
-    <nav>
-        <button id="menu"></button>
-        <ul class="navigation">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="Chamber/index.html">Chamber</a></li>
-            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
-            <li>
-                <a href="#">Form</a>
-            </li>
-        </ul>
-    </nav>
-    <main>
-        <div class="hero">
-            <picture>
-                <source media="(max-width: 400px)" srcset="images/hero-small.webp">
-                <source media="(max-width: 960px)" srcset="images/hero-medium.webp">
-                <img src="images/hero-large.webp" alt="Japan Tokyo Temple">
-            </picture>
-            <div class="herolabel">
-                <p>Japan Tokyo Temple</p>
+        <header>
+            <div class="myHeader">
+                <div class="myimg">
+                    <img src="images/me_reedited.webp" alt="Kadark Kikuta" width="75" height="100">
+                </div>
+                <div id="myname">
+                    Kakeru Kikuta
+                </div>
             </div>
-        </div>
-        <h2>WDD 230: Web Frontend Development</h2>
-        <div class="myGrid">
-            <section class="card">
-                <h3>Learning Activities</h3>
-                <ul class="submenu">
-                    <li>Week 01
-                        <a href="week01/holygrail.html">Layout</a>
-                        <a href="week01/media_query.html">Media Query</a>
-                        <a href="https://codepen.io/Kakeru-Kikuta/pen/OJdNyPQ">JS Pen</a>
-                    </li>
-                    <li>Week 02
-                        <a href="week02/design.html">Design</a>
-                        <a href="https://codepen.io/Kakeru-Kikuta/pen/NWodLPw">Hamburger Menu</a>
-                        <a href="week02/bom.html">Top 10 BOM</a>
-                    </li>
-                    <li>Week 03
-                        <a href="week03/images/landscape.jpg.webp">WebP</a>
-                        <a href="week03/lazyload.html">Lazy Load</a>
-                        <a href="week03/response-images.html">Response Images</a>
-                        <a href="week03/bom-w3.html">Web Storage API</a>
-                    </li>
-                    <li>Week 04
-                        <a href="https://codepen.io/Kakeru-Kikuta/pen/vYbdRPX">CSS Pseudo-classes</a>
-                        <a href="week04/images/CSS-Combinators.jpg">CSS Combinators</a>
-                        <a href="week04/tablebuild.html">HTML Tables</a>
-                        <a href="week04/index.html">HTML Forms</a>
-                    </li>
-                    <li>Week 05<a href="#"></a></li>
-                    <li>Week 06<a href="#"></a></li>
-                </ul>
-            </section>
-            <section class="card1">
-                <h3>Information</h3>
-                <p id="weather"></p>
-                <p id="label">Page Visit: <span class="visits"></span></p>
-            </section>
-            <div class="iframe-wrp">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d398660.46427864407!2d140.8502137!3d38.68255625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f893e3cbff0183f%3A0x63c6f89be1058522!2z5a6u5Z-O55yM5aSn5bSO5biC!5e0!3m2!1sja!2sjp!4v1700612227923!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </header>
+        <nav>
+            <button id="menu"></button>
+            <ul class="navigation">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="Chamber/index.html">Chamber</a></li>
+                <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+                <li>
+                    <a href="#">Form</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <div class="hero">
+                <picture>
+                    <source media="(max-width: 400px)" srcset="images/hero-small.webp">
+                    <source media="(max-width: 960px)" srcset="images/hero-medium.webp">
+                    <img src="images/hero-large.webp" alt="Japan Tokyo Temple">
+                </picture>
+                <div class="herolabel">
+                    <p>Japan Tokyo Temple</p>
+                </div>
             </div>
-        </div>
-    </main>
-    <footer>
-        <p>©<span id="year"></span> Kakeru Kikuta Japan</p>
-        <p>
-            Last Modification: <span id="date"></span>
-        </p>
-    </footer>
-<script src="scripts/getDate.js"></script>
-</body>
+            <h2>WDD 230: Web Frontend Development</h2>
+            <div class="myGrid">
+                <section class="card">
+                    <h3>Learning Activities</h3>
+                    <ul class="submenu">
+                        <li>Week 01
+                            <a href="week01/holygrail.html">Layout</a>
+                            <a href="week01/media_query.html">Media Query</a>
+                            <a href="https://codepen.io/Kakeru-Kikuta/pen/OJdNyPQ">JS Pen</a>
+                        </li>
+                        <li>Week 02
+                            <a href="week02/design.html">Design</a>
+                            <a href="https://codepen.io/Kakeru-Kikuta/pen/NWodLPw">Hamburger Menu</a>
+                            <a href="week02/bom.html">Top 10 BOM</a>
+                        </li>
+                        <li>Week 03
+                            <a href="week03/images/landscape.jpg.webp">WebP</a>
+                            <a href="week03/lazyload.html">Lazy Load</a>
+                            <a href="week03/response-images.html">Response Images</a>
+                            <a href="week03/bom-w3.html">Web Storage API</a>
+                        </li>
+                        <li>Week 04
+                            <a href="https://codepen.io/Kakeru-Kikuta/pen/vYbdRPX">CSS Pseudo-classes</a>
+                            <a href="week04/images/CSS-Combinators.jpg">CSS Combinators</a>
+                            <a href="week04/tablebuild.html">HTML Tables</a>
+                            <a href="week04/index.html">HTML Forms</a>
+                        </li>
+                        <li>Week 05<a href="#"></a></li>
+                        <li>Week 06<a href="#"></a></li>
+                    </ul>
+                </section>
+                <section class="card1">
+                    <h3>Information</h3>
+                    <p id="weather"></p>
+                    <p id="label">Page Visit: <span class="visits"></span></p>
+                </section>
+                <div class="iframe-wrp">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d398660.46427864407!2d140.8502137!3d38.68255625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f893e3cbff0183f%3A0x63c6f89be1058522!2z5a6u5Z-O55yM5aSn5bSO5biC!5e0!3m2!1sja!2sjp!4v1700612227923!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>©<span id="year"></span> Kakeru Kikuta Japan</p>
+            <p>
+                Last Modification: <span id="date"></span>
+            </p>
+        </footer>
+    <script src="scripts/getDate.js"></script>
+    </body>
 </html>
