@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kadark Chamber of Commerce</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development - Kakeru Kikuta - course assignment Chamber Site">
+    <meta name="author" content="Kakeru Kikuta">
+
+    <meta property="og:title" content="Kakeru Kikuta" />
+    <meta property="og:type" content="Home" />
+    <meta property="og:url" content="https://kakeru-kikuta.github.io/wdd230/Chamber/index.html" />
+    <meta property="og:image" content="#" />
+
+    <link rel="stylesheet" href="styles/normalize2.css">
+    <link rel="stylesheet" href="styles/s">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="stylesheet" href="styles/chamber-plan.css">
+    <link rel="stylesheet" href="https://googleapis.com/css2?family=Lato&display=swap">
+
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <div id="mode">
+        🕶️
+    </div>
+    <header>
+        <h1 class="myHeader">
+            Kadark Chamber of Commerce
+        </h1>
+        <nav>
+            <button id="menu"></button>
+            <ul class="navigation">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Enter your infomations.</legend>
+                <label class="top">First Name* <input type="text" name="fname" required>
+                </label>
+                <label class="top">Last Name* <input type="text" name="lname" required>
+                </label>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>Kadark Chamber of Commerce</p>
+        <p>Kakeru Kikuta</p>
+        <p>Contact Information here</p>
+        <p>©<span id="year"></span>Kadark Chamber</p>
+        <p>Kakeru Kikuta</p>
+        <p>WDD 230 Project</p>
+        <p>
+            Last Modification: <span id="date"></span>
+        </p>
+    </footer>
+    <script src="scripts/chamber.js"></script>
+</body>
+</html>
