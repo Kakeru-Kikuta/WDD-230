@@ -87,3 +87,10 @@ nav a:hover {
 .active::before {
 	content: "📍 ";
 }
+
+footer {
+    background-color: #36454f;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
