@@ -49,9 +49,29 @@
             <h1>Form</h1>
                 <form method="get">
                     <fieldset>
-                        <legend>Infomation</legend>
+                        <legend>Enter your Infomation</legend>
+                        <label class="top">User name* <input type="text" id="usern" name="uname" pattern="[A-Za-z][0-9]" placeholder="Alphabets and numbers are allowed." required></label>
+                        <label class="top">Password* <input type="password" id="upass" name="pass" pattern="[A-Za-z][0-9]{8-16}" placeholder="At a least 8 characters and numbers" required></label>
+                        <label class="top">Re-enter Your Password* <input type="password" id="upass2" name="pass2"></label>
+                        <div>Please enter a valid email address</div>
+		                <label class="top">Email* <input type="email" id="userEM" name="mail" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" placeholder="someone00@byui.edu"></label>
+                        <label id="rating">Page Rating* </label>
+                        <input type="range" id="rate" name="userRate" min="1" max="10" value="0" list="rangevalues">
+                            <datalist id="rangevalues">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </datalist>
                         
                     </fieldset>
+                    <input type="submit" value="Determine input" class="subnmitBtn">
                 </form>
         </main>
         <footer>
