@@ -171,3 +171,7 @@ form label.top input:required:valid {
 #rangevalues option {
 	flex: 1 1 auto;
 }
+
+:root {
+    background-color: white;
+}
