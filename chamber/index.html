@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kadark Chamber of Commerce</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development - Kakeru Kikuta - course assignment Chamber Site">
+    <meta name="author" content="Kakeru Kikuta">
+
+    <meta property="og:title" content="Kakeru Kikuta" />
+    <meta property="og:type" content="Home" />
+    <meta property="og:url" content="https://kakeru-kikuta.github.io/wdd230/Chamber/index.html" />
+    <meta property="og:image" content="#" />
+
+    <link rel="stylesheet" href="styles/normalize2.css">
+    <link rel="stylesheet" href="styles/s">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="stylesheet" href="styles/chamber-plan.css">
+    <link rel="stylesheet" href="https://googleapis.com/css2?family=Lato&display=swap">
+
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <div id="mode">
+        🕶️
+    </div>
+    <header>
+        <h1 class="myHeader">
+            Kadark Chamber of Commerce
+        </h1>
+        <nav>
+            <button id="menu"></button>
+            <ul class="navigation">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="Discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <source media="(max-width: 400px)" srcset="images/hero-s.webp">
+            <source media="(max-width: 960px)" srcset="hero-m.webp">
+            <img id="hero-pic" src="images/hero-l.webp" alt="heroimg">
+            <div class="herolabel">
+                <a href="#">Join Chamber</a>
+            </div>
+        </div>
+        <div class="myGrid">
+            <section id="s1">
+                <h3>Events</h3>
+                <h4>Harvest Festival</h4>
+                <p>Held on the third Saturday of this month at the square in front of City Hall.</p>
+                <a href="discover.html">more info...</a>
+            </section>
+            <section id="s2">
+                <h3>Information</h3>
+                <p id="weather"></p>
+            </section>
+            <section id="s3">
+                <h2>Member Spotlights</h2>
+                <h3>New store opening</h3>
+                <p>My name is Ken, the owner of Fire and Speed. I used my experience as a car dealer to open a shop that sells used car parts. We also look for parts that are out of print. We look forward to welcoming everyone.</p>
+                <h3>Seasonal items have arrived!</h3>
+                <p>I am the owner of Chan's fruit and vegetable store on 2-chome. This season's pomegranates are now in stock. We offer discounts for bulk purchases, so please feel free to contact us. We can also cut it for you if you request.</p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>Kadark Chamber of Commerce</p>
+        <p>Kakeru Kikuta</p>
+        <p>Contact Information here</p>
+        <p>©<span id="year"></span>Kadark Chamber</p>
+        <p>Kakeru Kikuta</p>
+        <p>WDD 230 Project</p>
+        <p>
+            Last Modification: <span id="date"></span>
+        </p>
+    </footer>
+    <script src="scripts/chamber.js"></script>
+</body>
+</html>
