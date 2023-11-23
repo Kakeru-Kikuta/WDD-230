@@ -46,11 +46,83 @@
         <form method="get" action="thankyou.html">
             <fieldset>
                 <legend>Enter your infomations.</legend>
-                <label class="top">First Name* <input type="text" name="fname" required>
+                <label class="top">First Name* <input type="text" name="fname" id="fn">
                 </label>
-                <label class="top">Last Name* <input type="text" name="lname" required>
+                <label class="top">Last Name* <input type="text" name="lname" id="ln" required>
                 </label>
+                <label class="top">Your Position* <input type="text" name="uposition" id="up" pattern="[A-Za-z0-9\s]+" minlength="7" placeholder="Alpha characters, hyphens, and spaces with a minimum of seven characters">
+                </label>
+                <label class="top">Email* <input type="email" name="email" id="em" placeholder="someone@gmail.com" required>
+                </label>
+                <label class="top">Phone* <input type="tel" name="phone" id="ph" placeholder="1235551234"> 
+                </label>
+                <label class="top">Business/Organization's name* <input type="text" name="boname" id="bon" required>
+                </label>
+                <label class="top">Description* <textarea name="bodesc" id="bod" cols="30" rows="10" placeholder="Your business/organization's description here."></textarea></label>
             </fieldset>
+            <fieldset>
+                <legend>Choose your membership</legend>
+                <label class="sbs">
+                    <input type="radio" name="membership" value="NP"> NP 0$/Month
+                </label>
+                <label class="sbs">
+                    <input type="radio" name="membership" value="Bronze"> Bronze 10$/Month
+                </label>
+                <label class="sbs">
+                    <input type="radio" name="membership" value="Silver"> Silver 20$/Month
+                </label>
+                <label class="sbs">
+                    <input type="radio" name="membership" value="Gold"> Gold 30$/Month
+                </label>
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="2" scope="colgroup">Membership level benefits</th>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <th scope="col">NP</th>
+                            <th scope="col">Bronze</th>
+                            <th scope="col">Silver</th>
+                            <th scope="col">Gold</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Event store right</td>
+                            <td>✔️</td>
+                            <td>✔️</td>
+                            <td>✔️</td>
+                            <td>✔️</td>
+                        </tr>
+                        <tr>
+                            <td>Training</td>
+                            <td>❌</td>
+                            <td>✔️</td>
+                            <td>✔️</td>
+                            <td>✔️</td>
+                        </tr>
+                        <tr>
+                            <td>Advertising</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>✔️</td>
+                            <td>✔️</td>
+                        </tr>
+                        <tr>
+                            <td>Event discounts</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>✔️</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+            <label>
+                <input type="hidden" name="loaddate" id="ldate">
+            </label>
+            <input type="submit" value="Join Chamber" class="subnmitBtn">
         </form>
     </main>
     <footer>
