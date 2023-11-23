@@ -35,14 +35,14 @@
         <nav>
             <button id="menu"></button>
             <ul class="navigation">
-                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="#">Directory</a></li>
-                <li><a href="#">Join</a></li>
+                <li class="active"><a href="join.html">Join</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="joinContents">
         <form method="get" action="thankyou.html">
             <fieldset>
                 <legend>Enter your infomations.</legend>
@@ -60,7 +60,51 @@
                 </label>
                 <label class="top">Description* <textarea name="bodesc" id="bod" cols="30" rows="10" placeholder="Your business/organization's description here."></textarea></label>
             </fieldset>
-            <fieldset>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2" scope="colgroup">Membership level benefits</th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th scope="col">NP</th>
+                        <th scope="col">Bronze</th>
+                        <th scope="col">Silver</th>
+                        <th scope="col">Gold</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Event store right</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <td>Training</td>
+                        <td>❌</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <td>Advertising</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <td>Event discounts</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>✔️</td>
+                    </tr>
+                </tbody>
+            </table>
+            <fieldset id="sector2">
                 <legend>Choose your membership</legend>
                 <label class="sbs">
                     <input type="radio" name="membership" value="NP"> NP 0$/Month
@@ -74,50 +118,6 @@
                 <label class="sbs">
                     <input type="radio" name="membership" value="Gold"> Gold 30$/Month
                 </label>
-                <table>
-                    <thead>
-                        <tr>
-                            <th colspan="2" scope="colgroup">Membership level benefits</th>
-                        </tr>
-                        <tr>
-                            <th></th>
-                            <th scope="col">NP</th>
-                            <th scope="col">Bronze</th>
-                            <th scope="col">Silver</th>
-                            <th scope="col">Gold</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Event store right</td>
-                            <td>✔️</td>
-                            <td>✔️</td>
-                            <td>✔️</td>
-                            <td>✔️</td>
-                        </tr>
-                        <tr>
-                            <td>Training</td>
-                            <td>❌</td>
-                            <td>✔️</td>
-                            <td>✔️</td>
-                            <td>✔️</td>
-                        </tr>
-                        <tr>
-                            <td>Advertising</td>
-                            <td>❌</td>
-                            <td>❌</td>
-                            <td>✔️</td>
-                            <td>✔️</td>
-                        </tr>
-                        <tr>
-                            <td>Event discounts</td>
-                            <td>❌</td>
-                            <td>❌</td>
-                            <td>❌</td>
-                            <td>✔️</td>
-                        </tr>
-                    </tbody>
-                </table>
             </fieldset>
             <label>
                 <input type="hidden" name="loaddate" id="ldate">
