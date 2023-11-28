@@ -1,0 +1,18 @@
+{
+    "familyName" : "Family",
+    "movedDate" : "05.22.2022",
+    "peopleNumber" : 2,
+    "bishopricVist" : "Y",
+    "members" : [
+      {
+        "name" : "Famly Father",
+        "gender" : "M",
+        "birthDate" : "05.11.1994"
+      },
+      {
+        "name" : "Famly Mother",
+        "gender" : "M",
+        "birthDate" : "11.12.1995"
+      }
+    ]
+  }
