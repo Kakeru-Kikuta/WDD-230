@@ -51,3 +51,33 @@ if (numVisits !== 0) {
 numVisits++;
 
 localStorage.setItem("numVisits-ls", numVisits);
+
+// Weather
+const currentTemp = document.querySelector("#current-temp");
+const weatherIcon = document.querySelector("#weather-icon");
+const captionDese = document.querySelector("figcaption");
+
+const url = ""
+async function apiFetch () {
+    try {
+        const response = await fetch(url);
+        if (response.ok) {
+            const data =await response.json();
+            console.log(data);
+        } else {
+            throw Error(await response.text());
+        } catch (error) {
+            console.log(error);
+        }
+    }
+}
+apiFetch();
+
+function displayResults(data) {
+    currentTemp.innerHTML =`${data.____}&deg;F`;
+    const incosrc = ``
+    let desc = data.weather[0].;
+    weatherIcon.setAttribute();
+    weatherIcon.setAttribute();
+    captionDese.textContent = `${desc}`;
+}
