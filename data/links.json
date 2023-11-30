@@ -22,9 +22,85 @@
             "week": "Week 2",
             "links": [
                 {
-                    
+                    "url":"week02/design.html",
+                    "title":"Design"
+                },
+                {
+                    "url":"https://codepen.io/Kakeru-Kikuta/pen/NWodLPw",
+                    "title":"Hamburger Menu"
+                },
+                {
+                    "url":"week02/bom.html",
+                    "title":"Top 10 BOM"
                 }
             ]
+        },
+        {
+            "week": "Week 3",
+            "links": [
+                {
+                    "url":"week03/images/landscape.jpg.webp",
+                    "title":"WebP"
+                },
+                {
+                    "url":"week03/lazyload.html",
+                    "title":"Lazy Load"
+                },
+                {
+                    "url":"week03/response-images.html",
+                    "title":"Response Images"
+                },
+                {
+                    "url":"week03/bom-w3.html",
+                    "title":"Web Storage API"
+                }
+            ]
+        },
+        {
+            "week": "Week 4",
+            "links": [
+                {
+                    "url":"https://codepen.io/Kakeru-Kikuta/pen/vYbdRPX",
+                    "title":"CSS Pseudo-classes"
+                },
+                {
+                    "url":"week04/images/CSS-Combinators.jpg",
+                    "title":"CSS Combinations"
+                },
+                {
+                    "url":"week04/tablebuild.html",
+                    "title":"HTML Tables"
+                },
+                {
+                    "url":"week04/index.html",
+                    "title":"HTML Forms"
+                }
+            ]
+        },
+        {
+            "week": "Week 5",
+            "links": [
+                {
+                    "url":"https://codepen.io/Kakeru-Kikuta/pen/XWOBXYy",
+                    "title":"Pseudo-elements"
+                },
+                {
+                    "url":"week05/new-ward-members.json",
+                    "title":"JSON"
+                },
+                {
+                    "url":"week05/prophets.html",
+                    "title":"Fetch API"
+                },
+                {
+                    "url":"week05/weather.html",
+                    "title":"Weather"
+                }
+            ]
+        },
+        {
+            "week":"Week 6",
+            "links": []
         }
     ]
 }
