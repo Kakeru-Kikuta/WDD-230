@@ -13,14 +13,11 @@
     <meta property="og:image" content="#" />
 
     <link rel="stylesheet" href="styles/normalize2.css">
-    <link rel="stylesheet" href="styles/s">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
-    <link rel="stylesheet" href="styles/chamber-plan.css">
-    <link rel="stylesheet" href="https://googleapis.com/css2?family=Lato&display=swap">
 
     <link rel="icon" href="favicon.ico">
 </head>
@@ -60,7 +57,11 @@
             </section>
             <section id="s2">
                 <h3>Information</h3>
-                <p id="weather"></p>
+                <p>The current temperature is <span id="current-temp"></span></p>
+                    <figure>
+                        <img id="weather-icon">
+                        <figcaption></figcaption>
+                    </figure>
             </section>
             <section id="s3">
                 <h2>Member Spotlights</h2>
@@ -83,5 +84,6 @@
         </p>
     </footer>
     <script src="scripts/chamber.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>
