@@ -1,0 +1,30 @@
+{
+    "weeks": [
+        {
+            "week": "Week 1",
+            "links": [
+                {
+                    "url":"week01/holygrail.html",
+                    "title":"Layout"
+                },
+                {
+                    "url":"week01/media_query.html",
+                    "title":"Media Query"
+                },
+                {
+                    "url":"https://codepen.io/Kakeru-Kikuta/pen/OJdNyPQ",
+                    "title":"JS Pen"
+                    
+                }
+            ]
+        },
+        {
+            "week": "Week 2",
+            "links": [
+                {
+                    
+                }
+            ]
+        }
+    ]
+}
