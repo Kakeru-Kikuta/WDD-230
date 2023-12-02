@@ -38,3 +38,66 @@ modeButton.addEventListener("click", () => {
 		modeButton.textContent = "🕶️";
 	}
 });
+
+// Drectory
+const url = 'https://kakeru-kikuta.github.io/wdd230/chamber/data/members.json';
+
+function displayProphets (member) {
+    
+  let card = document.createElement('section');
+  let name = document.createElement('h2');
+  let portrait = document.createElement('img');
+  let location = document.createElement("p")
+  let phone = document.createElement("p")
+  let web = document.createElement("p")
+
+  name.textContent = member.name;
+  location.textContent = `Address: ${member.addresses}`
+  phone.textContent = `TEL: ${member.phonenumbers}`
+  web.textContent = member.weburl;	
+
+  portrait.setAttribute('src', member.compicon);
+  portrait.setAttribute('alt', `Portrait of ${member.name} `); 
+  portrait.setAttribute('loading', 'lazy');
+  portrait.setAttribute('width', '300');
+  portrait.setAttribute('height', '300');
+
+  card.appendChild(name); 
+  card.appendChild(portrait);
+  card.appendChild(location);
+  card.appendChild(phone);
+  card.appendChild(web);
+  document.querySelector('#cards').appendChild(card)
+  }
+
+fetch(url)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    console.table(jsonObject);  // temporary checking for valid response and data parsing
+    const members = jsonObject['members'];
+    members.forEach(displayProphets);
+  });
+
+  console.log("testing")
+
+//  Drectory List 
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector("#cards");
+
+// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
+
+gridbutton.addEventListener("click", () => {
+	// example using arrow function
+	display.classList.add("grid");
+	display.classList.remove("list");
+});
+
+listbutton.addEventListener("click", showList); // example using defined function
+
+function showList() {
+	display.classList.add("list");
+	display.classList.remove("grid");
+}
