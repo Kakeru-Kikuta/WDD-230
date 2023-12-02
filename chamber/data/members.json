@@ -1,0 +1,60 @@
+{
+    "members": [
+      {
+        "name": "Quantum Innovations",
+        "addresses": "123somewhere 44st",
+        "phonenumbers": "000-000-0000",
+        "weburl": "comp.co.url",
+        "level": "Gold",
+        "compicon": "images/QE_logo.png"
+      },
+      {
+        "name": "Stellar Elixirs",
+        "addresses": "123somewhere 44st",
+        "phonenumbers": "000-000-0000",
+        "weburl": "comp.co.url",
+        "level": "Gold",
+        "compicon": "images/SE_logo.png"
+      },
+      {
+        "name": "Nebula Dynamics",
+        "addresses": "123somewhere 44st",
+        "phonenumbers": "000-000-0000",
+        "weburl": "comp.co.url",
+        "level": "Gold",
+        "compicon": "images/ND_logo.png"
+      },
+      {
+        "name": "Quantum Innovations",
+        "addresses": "123somewhere 44st",
+        "phonenumbers": "000-000-0000",
+        "weburl": "comp.co.url",
+        "level": "Gold",
+        "compicon": "images/QE_logo.png"
+      },
+      {
+        "name": "Stellar Elixirs",
+        "addresses": "123somewhere 44st",
+        "phonenumbers": "000-000-0000",
+        "weburl": "comp.co.url",
+        "level": "Gold",
+        "compicon": "images/SE_logo.png"
+      },
+      {
+        "name": "Nebula Dynamics",
+        "addresses": "123somewhere 44st",
+        "phonenumbers": "000-000-0000",
+        "weburl": "comp.co.url",
+        "level": "Gold",
+        "compicon": "images/ND_logo.png"
+      },
+      {
+        "name": "Nebula Dynamics",
+        "addresses": "123somewhere 44st",
+        "phonenumbers": "000-000-0000",
+        "weburl": "comp.co.url",
+        "level": "Gold",
+        "compicon": "images/ND_logo.png"
+      }
+    ]
+  }
