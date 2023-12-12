@@ -1,4 +1,4 @@
-@media (max-width: 640px) {
+@media (min-width: 640px) {
 	nav ul {
 		display: flex;
         justify-content:space-around; 
@@ -26,7 +26,4 @@
 		flex: 1 1 100%;
 	}
 
-	#cards {
-		display: block;
-	}
 }
