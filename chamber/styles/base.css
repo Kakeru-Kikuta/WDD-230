@@ -52,7 +52,7 @@ h2 {
 }
 
 h3 {
-	color: #fff;
+	color: black;
 	background-color: #5999E8;
 }
 .submenu li {
@@ -60,7 +60,7 @@ h3 {
 }
 
 footer {
-    color: #fff;
+    color: black;
 	background-color: #5999E8;
     text-align: center;
     width: 100%;
